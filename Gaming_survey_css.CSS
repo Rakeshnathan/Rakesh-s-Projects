@@ -1,0 +1,127 @@
+body{
+  background-image:url("https://images7.alphacoders.com/130/1303456.jpg");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-attachment:fixed;
+  background-size:cover;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  
+}
+
+h1 {
+    font-family: "Times New Roman", serif;
+    color: rgb(104, 239, 244);
+    margin: 1em auto;
+  text-align: center;  
+  font-size:50px; 
+  
+  
+}
+
+.move{
+  font-family: "Georgia";
+  font-size:25px;
+  text-align:center;
+  margin-top: -48px;
+  color: white;
+  
+ 
+}
+.intro{
+  font-family:"serif";
+  color: black;
+  text-align:center;
+  border: 2.5px solid  rgb(250, 235, 157);
+  font-size:25px;
+ background-color: rgba(226, 223, 210,0.5);
+  box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8);
+  padding:1px;
+    
+}
+.outro {
+  width: 80%;
+  background-color: rgba(21, 9, 82, 0.787);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid rgb(113, 255, 253) ;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+input,
+textarea
+ {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+  background-color:white;
+  color:black;
+ }
+
+select{
+margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;  
+} 
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+  color:white;
+}
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #3b4b4f;
+  border-color: white;
+  min-width: 300px;
+}
+label {
+  display: block;
+  margin: 0.5rem 0;
+  
+  
+}
+.center{
+  
+  margin: 0.5rem 0;
+  vertical-align: middle;
+  padding-left:30px;
+  padding-top: 4px;
+
+
+}
+option{
+  display:inline;
+}
+ .inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+.online
+{
+  width: 20px;
+  margin: 0 2em 0 0;
+vertical-align: middle;
+position:absolute;
+ border:2px solid white;
+
+}

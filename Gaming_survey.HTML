@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title> this_is_a_survey_form</title>
+    <link rel="stylesheet" href="Gaming_survey_css.CSS">
+  </head>
+<body>
+  <h1 id="title">GAMING SURVEY FORM</h1>
+
+  <strong><p class="move"id="description">Please take your time in filling out this survey form .</p></strong>
+
+  <div class="intro">
+ <center> 
+<p>
+Hello There !</br>
+</br>
+Use this Survey to build better games, understand your player base and widen your customer base.</br>
+Playing video games in many manner let it it be online  or offline story game mode is a popular fun interactive mode,gaming online is a massively popular pastime, with hundreds of millions of young devotees right across the world. In this gaming survey form, we'll help you to 'level up' your knowledge of  gaming and its various other .
+</p>
+</center>
+</div>
+<div class="outro">
+<form id="survey-form"method="post" action='https://register-demo.freecodecamp.org'>
+  <fieldset>
+
+        <label for="name"id="name-label">Name: <input id="name" name="first-name" type="text" required placeholder="Enter Your Name..."/></label>
+        <label for="email" id="email-label">Email: <input id="email" name="email" type="email" placeholder="Enter Your Email..."required /></label>
+ <label for="number" id="number-label"> Age: <input id="number" type="number" name="age" min="13" max="120" placeholder="Enter Your Age..."/></label>
+
+
+<label for="gender">Gender:
+<select id="gender" name="gender">
+<option value="">(select any)</option>
+            <option value="1">Male</option>
+            <option value="2">Female</option>
+            <option value="3">Prefer Not To Say</option>  
+</select>
+</fieldset>
+<fieldset>
+</label>Do You Like Gaming? 
+<label>
+<select id="dropdown" name="dropdown">
+ <option value="">(Select an Option)</option>
+ <option value="1">Yes</option>
+ <option value="2">No</option>
+ <option value="3">Somewhat</option>
+  </select>    
+</label>
+</fieldset>
+<fieldset>
+<p>What Mode Do You Play Is It Multiplayer OR Singleplayer ?</p>
+ 
+<label for="play" ><input id="play" type="radio" name="single" value="Story-Mode Games(Offline Mode)" class="inline" checked /> Story-Mode Games(Offline Mode)</label>
+
+<label for="online" ><input id="online" type="radio" name="single"  class="inline"value="MultiPlayer-Mode(Online Mode)" /> MultiPlayer-Mode(Online Mode)</label>
+
+<label for="both" ><input id="both" type="radio" name="single"  class="inline" value="Both" /> Both</label>
+</fieldset>
+<fieldset>
+  
+  <label for="Genre" >What is Your Favourite Video Game Category? (Check all that Apply)</label>
+
+  <input id="Racing" type="checkbox" class="online" name="genre" value="Racing">
+  <label for="Racing"class="center"> Racing</label>
+  
+  <input id="Horror" type="checkbox" class="online" name="genre" value="Horror">
+  <label for="Horror"class="center"> Horror</label>
+  
+  <input id="Story" type="checkbox" class="online" name="genre" value="Story/Open-World/Fantasy">
+  <label for="Story"class="center">Story/Open-World/Fantasy</label>
+  
+  <input id="Coop" type="checkbox" class="online" name="genre" value="Co-op">
+  <label for="Coop"class="center">Co-op</label>
+  
+  <input id="Survival" type="checkbox" class="online" name="genre" value="Survival">
+  <label for="Survival"class="center">Survival</label>
+  
+  <input id="Action" type="checkbox" class="online" name="genre" value="Action">
+  <label for="Action"class="center">Action</label>
+  
+  <input id="FreeToPlay" type="checkbox" class="online" name="genre" value="Free-to-Play">
+  <label for="FreeToPlay"class="center">Free-to-Play</label>
+  
+  <input id="Adventure" type="checkbox" class="online" name="genre" value="Adventure">
+  <label for="Adventure"class="center">Adventure</label>
+  
+  <input id="VR" type="checkbox" class="online" name="genre" value="Virtual-Reality">
+  <label for="VR"class="center">Virtual-Reality</label>
+  
+  <input id="Fighting" type="checkbox" class="online" name="genre" value="Fighting">
+  <label for="Fighting"class="center">Fighting</label>
+</fieldset>
+<fieldset>
+<label for="why">Why Do You Like Video-Games.Any Reason? :
+          <textarea id="why" name="bio" rows="3" cols="30" placeholder="I like Video-Games because They are..."></textarea>
+        </label>
+
+
+ </fieldset>
+
+
+<input id="submit" type="submit" value="Submit" />
+
+</form>
+</div>
+</body>
+  </html>
